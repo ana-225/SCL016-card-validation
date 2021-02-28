@@ -1,0 +1,182 @@
+/* En esta sección le entrego diseño solo al fondo de la pantalla */
+
+
+body{
+    background-color: grey;
+    background: linear-gradient(70deg, #A4A4A4, white);
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-attachment: fixed;
+    min-height:100vh;
+}
+/* inicio de la pagína y sección izquierda   */
+
+header{
+    border: 2px solid white;
+    width: 100%;
+    height: 60px;
+    background-color: white;
+    text-align: right;
+}
+h1{
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    position: absolute;
+    width: 551px;
+    height: 30px;
+    left: 180px;
+    top:100px;
+}
+
+h2{
+    position:absolute;
+    font-family: Cinzel;
+    font-style: normal;
+    font-size: 30PX;
+    height: 100px;
+    left:200px;
+    top: 570px;
+    text-align: center;
+   
+}
+
+img{
+    position:absolute;
+    left: 200px;
+    top: 170px;
+}
+
+/* sección derecha de cada recuadro    */
+
+nav{
+    border: 2px solid white;
+    width: 30%;
+    background-color: white;
+    height: 100px;
+    margin: 30px 60px 20px auto;
+}
+.tipo{
+    color:black;
+    margin: auto;
+    margin-left: 60px;
+    margin-top: 20px;
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+
+.producto{
+  
+    margin-left: 60px;
+    margin-top: 0px;
+    font-family: Cinzel;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    opacity: 70%;
+   
+}
+main{
+    border: 2px solid white;
+    width: 30%;
+    height: 550px;
+    background-color: white;
+    margin-right: 60px;
+    margin-top: 50px;
+    margin-left: 66%;
+}
+
+.totoro{
+   
+    margin-left: 120px;
+    margin-top: 0px;
+    font-size: 18px;
+    margin-bottom: 30px;;
+    
+}
+hr{
+    margin-top:75px;
+    margin-bottom: 75px;
+    
+}
+.img2{
+    position:absolute;
+  
+    left: 1130px;
+    top: 370px;
+}
+ul{
+    list-style: none;
+    white-space: pre-wrap;
+    font-size: 20px;
+    line-height: 40%;
+    
+
+}
+
+/*sección para ingresar numero de tarjeta y botón    */
+
+.input{
+    border-radius:10px;
+    font-size: 30px;
+    padding: 10px;
+    color: black;
+    margin-left: 15%;
+    margin-top: -200px;
+    text-align: center;
+
+   
+}
+
+
+
+.boton1{
+    
+    text-decoration: none;
+    padding: 10px;
+    font-family: helvetica;
+    font-weight: 300;
+    font-size: 30px;
+    font-style: italic;
+    color:black;
+    background: linear-gradient(180deg, #EFD08D 0%, #FEF7C0 100%);
+    border-radius: 10px;
+    border:4px solid #605240;
+    margin-left: 360px;
+    position: absolute;
+}
+
+.boton1:hover{
+    text-decoration: none;
+    color: black;
+    background:white;
+  }
+
+  /* revisar para colocarle el diseño al mensaje */
+  .validacion{
+      font-size: 24px;
+      position: relative;
+      color: red;
+    
+  }
+
+  p{color:green;
+    font-size: 20px;
+
+  }
+  /*  última sección   */
+
+footer{
+    position:absolute;
+    height: 24px;
+    left: 550px;
+    top: 1000px;
+    font-family: Cinzel;
+    font-size: 25px;
+}

@@ -18,13 +18,38 @@ const validator = {
           else{
               n = Number(convertir[i]); 
           }
-      }
+      
       suma = suma + n; 
-
+        }
       return suma % 10 === 0 ? true : false;
-  }
+  },
 
+  maskify: (cardNumber) => {
+     let maskifyNumber = cardNumber;
+     let finalNumber = '';
+    //  console.log(maskifyNumber);
+     
+     for (let i= 0; i< maskifyNumber.length; i++){
+        //  console.log(maskifyNumber.length);
+        //  console.log(maskifyNumber[i]);
 
+         if (i< maskifyNumber.length -4){
+            //  console.log("enmascarando")
+             finalNumber = finalNumber +"#";
+            //  console.log(finalNumber);
+            
+         }
+          else{
+            finalNumber= finalNumber + maskifyNumber[i];
+            
+         }
+        //  console.log(finalNumber);
+     }
+
+     
+ return finalNumber;
+     
+ }
 
 }
 

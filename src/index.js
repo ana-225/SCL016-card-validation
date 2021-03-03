@@ -7,32 +7,47 @@ document.getElementById("validarBoton").addEventListener("click", myFunction);
 
 function myFunction(){
 
-
-
     let cardNumber = document.getElementById("ingresarNumero").value;
     
     const isValid = validator.isValid(cardNumber);
 
-    console.log(isValid)
+
+//     console.log(isValid);
+
+    let maskify = validator.maskify(cardNumber);
     
-    // const masquify = validator.masquify(cardNumber);
 
 // para verificar si la tarjeta es valida y aparezca el mensaje en html
     if (isValid === true) {
 
         
             document.getElementById("validacion").innerHTML = "Tarjeta Valida";
+            document.getElementById("validacion").style.color="green";
+
+            
 
     
     }
     else {
        
             document.getElementById("validacion").innerHTML = "Tarjeta Invalida";
-        
+            document.getElementById("validacion").style.color="red";
+            
+          
 
+            
     }
+    
+    
+//     console.log(maskify);
+//     enmascarado de los digitos ingresados ecepto los ultimos cuatro
 
-}
+document.getElementById("ingresarNumero").value= maskify;
+
+ }
+ 
 
 
-console.log(validator);
+
+
+

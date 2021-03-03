@@ -166,8 +166,11 @@ ul{
     
   }
 
-  p{color:green;
+  p{font-weight: bolder;
     font-size: 20px;
+    margin-top:-5px;
+    margin-left:15%;
+    
 
   }
   /*  última sección   */

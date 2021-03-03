@@ -14,10 +14,10 @@
 <!--sector izquierdo de la pagina para que el usuario ingrese datos solicitados-->
  
      <h1>Valide su Tarjeta de Credito</h1>
-     <h2>Inserte un número de Tarjeta de Credito </br>en el formulario</h2>
+     <h2>Inserte un número de Tarjeta de Credito <br>en el formulario</h2>
      <img src="imagenes/tarjeta 1.png" alt="foto referencial de tarjeta de credito" width="500">
  
-     <p id="validacion"> </p>
+     
   
   <nav>
      <h4 class="tipo">Tipo de Entrega</h4>
@@ -32,11 +32,11 @@
    
       <ul class="totoro">
       <li>Totoro </li>
-   <li><b>Peluche Totoro                  $18.990</b><li>
+   <li><b>Peluche Totoro                  $18.990</b></li>
       <li>Tamaño: 120cm </li>
       <li>1 un.</li>
     </ul>
-    </h4>
+    
     <img class="img2" src="imagenes/peluche-totoro.jpg" alt="imagen del producto" width="90">
     <hr width="340px" size="4px">
    
@@ -54,12 +54,12 @@
 
 
   
-  <input type="number"  id="ingresarNumero" maxlength="16" class="input" size="20"  placeholder="1234 5677 1234 5677" name="verificador"> 
+  <input type="text"  id="ingresarNumero" maxlength="16" class="input" size="20"  placeholder="1234 5677 1234 5677" ;name="verificador"> 
   
-  <!-- maxlength="16" oninput="if(this.value.length > this.maxLength) this.value = this.value.slice(0, this.maxLength);"
-   -->
+ 
      
-    </br> </br><br>
+    <br> 
+    <p id="validacion"> </p>
     
     <button id="validarBoton" class="boton1">VALIDAR</button>  
 

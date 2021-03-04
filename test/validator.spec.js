@@ -38,7 +38,7 @@ describe('validator', () => {
     });
 
     it('Debería retornar "######orld" para "helloworld"', () => {
-      expect(validator.maskify("######orld")).toMatch("helloworld");
+      expect(validator.maskify("helloworld")).toMatch("######orld");
     });
   });
 });

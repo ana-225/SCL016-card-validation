@@ -1,6 +1,4 @@
 /* En esta sección le entrego diseño solo al fondo de la pantalla */
-
-
 body{
     background-color: grey;
     background: linear-gradient(70deg, #A4A4A4, white);
@@ -41,15 +39,12 @@ h2{
     text-align: center;
    
 }
-
 img{
     position:absolute;
     left: 200px;
     top: 170px;
 }
-
 /* sección derecha de cada recuadro    */
-
 nav{
     border: 2px solid white;
     width: 30%;
@@ -68,10 +63,7 @@ nav{
     font-size: 24px;
     line-height: 32px;
 }
-
-
 .producto{
-  
     margin-left: 60px;
     margin-top: 0px;
     font-family: Cinzel;
@@ -93,7 +85,6 @@ main{
 }
 
 .totoro{
-   
     margin-left: 120px;
     margin-top: 0px;
     font-size: 18px;
@@ -103,11 +94,9 @@ main{
 hr{
     margin-top:75px;
     margin-bottom: 75px;
-    
 }
 .img2{
     position:absolute;
-  
     left: 1130px;
     top: 370px;
 }
@@ -116,28 +105,20 @@ ul{
     white-space: pre-wrap;
     font-size: 20px;
     line-height: 40%;
-    
-
 }
 
 /*sección para ingresar numero de tarjeta y botón    */
-
 .input{
     border-radius:10px;
     font-size: 30px;
     padding: 10px;
     color: black;
     margin-left: 15%;
-    margin-top: -200px;
+    margin-top: -500px;
     text-align: center;
-
-   
 }
 
-
-
 .boton1{
-    
     text-decoration: none;
     padding: 10px;
     font-family: helvetica;
@@ -157,22 +138,18 @@ ul{
     color: black;
     background:white;
   }
-
-  /* revisar para colocarle el diseño al mensaje */
+/* revisar para colocarle el diseño al mensaje */
   .validacion{
       font-size: 24px;
       position: relative;
       color: red;
-    
-  }
+}
 
   p{font-weight: bolder;
     font-size: 20px;
     margin-top:-5px;
     margin-left:15%;
-    
-
-  }
+}
   /*  última sección   */
 
 footer{

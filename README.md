@@ -4,9 +4,9 @@
 
 Mi proyecto trata sobre la validación de tarjeta  de crédito al momento de realizar la compra y de esta manera verificar si es válida o no antes de realizar cualquier ingreso de datos o de transacción.
 
+!(src/imagenes/tarjeta Proyecto final 1.png)
 
-
-
+<img src="imagenes/Proyecto final 1.png"
 
 
 

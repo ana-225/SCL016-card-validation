@@ -35,6 +35,7 @@ const validator = {
                 finalNumber = finalNumber + "#";
                 //  console.log(finalNumber);
             }
+            // y los numeros que no se enmascararon pasan a concatenarse con los cuatro numeros que quedaron
             else {
                 finalNumber = finalNumber + maskifyNumber[i];
             }

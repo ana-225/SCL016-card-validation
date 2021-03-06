@@ -4,7 +4,7 @@
 
 Mi proyecto trata sobre la validación de tarjeta  de crédito al momento de realizar la compra y de esta manera verificar si es válida o no antes de realizar cualquier ingreso de datos o de transacción.
 
-!(src/imagenes/Proyecto final 1.png)
+!(https://raw.githubusercontent.com/ana-225/SCL016-card-validation/master/src/imagenes/Proyecto%20final%201.png)
 
 <img src="imagenes/Proyecto final 1.png">
 !https://raw.githubusercontent.com/ana-225/SCL016-card-validation/master/src/imagenes/Proyecto%20final%201.png

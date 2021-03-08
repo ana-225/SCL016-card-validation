@@ -1,7 +1,7 @@
 const validator = {
     isValid: (cardNumber) => {
         let convertir = cardNumber.split("").reverse();
-        let suma = 0;
+        let sum = 0;
         let n = 0;
 
         for (let i = 0; i < convertir.length; i++) {
@@ -18,9 +18,9 @@ const validator = {
                 n = Number(convertir[i]);
             }
 // se realiza la suman todos los numeros 
-            suma = suma + n;
+            sum = sum + n;
         }
-        return suma % 10 === 0 ? true : false;
+        return sum % 10 === 0 ? true : false;
     },
 
     maskify: (cardNumber) => {
